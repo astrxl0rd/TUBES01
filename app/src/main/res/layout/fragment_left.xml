@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textSize="15sp"
+            android:id="@+id/tv_home"
+            android:layout_margin="20dp"
+            android:text="@string/tvHome"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textSize="15sp"
+            android:id="@+id/tv_cari"
+            android:layout_margin="20dp"
+            android:text="@string/tvCari"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textSize="15sp"
+            android:id="@+id/tv_menu"
+            android:layout_margin="20dp"
+            android:text="@string/tvMenu"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textSize="15sp"
+            android:id="@+id/tv_setting"
+            android:layout_margin="20dp"
+            android:text="@string/tvSetting"/>
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textSize="15dp"
+            android:id="@+id/tv_exit"
+            android:layout_margin="20dp"
+            android:text="@string/tvExit"/>
+    </LinearLayout>
+</FrameLayout>

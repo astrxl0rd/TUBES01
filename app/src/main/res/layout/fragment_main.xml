@@ -2,11 +2,33 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"
+        android:background="?attr/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makan apa? "
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="160sp"
         android:layout_height="wrap_content"
         android:layout_above="@id/btn_cari"
         android:layout_centerHorizontal="true"
