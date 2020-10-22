@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TUBES01</string>
+    <string name="tvHome">HOME</string>
+    <string name="tvCari">CARI</string>
+    <string name="tvMenu">MENU</string>
+    <string name="tvSetting">SETTING</string>
+    <string name="tvExit">EXIT</string>
 </resources>
